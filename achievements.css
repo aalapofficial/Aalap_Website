@@ -186,6 +186,9 @@ a:hover {
     
 }
 
+.title-achievements:hover{
+    color: purple;
+}
 
 .content-achievements{
     align-content: center;
@@ -270,4 +273,18 @@ a:hover {
     -moz-animation: fadeIn 2s;
     -o-animation: fadeIn 2s;
     -ms-animation: fadeIn 2s;
+}
+
+:hover Summary{
+    color: purple;
+    align-content: center;
+}
+
+.heading:hover{
+    color: purple;
+}
+
+.details{
+    border: black;
+    border-radius: 50px;
 }
