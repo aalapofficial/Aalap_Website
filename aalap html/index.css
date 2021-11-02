@@ -1,0 +1,170 @@
+:root {
+    --primary: white;
+    --secondary: black;
+    --accent:rgb(85, 15, 136);
+}
+body{
+    background-color: rgb(235, 232, 232);
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+p {
+    margin-bottom: 0;
+}
+.register-btn:hover {
+    border: 3px solid var(--primary);
+    padding: 5px 20px 5px 20px;
+    background-color: var(--primary);
+    color: var(--accent);
+    transition: all .4s ease;
+}
+span {
+    padding: 5px 20px 5px 20px;
+}
+h2{
+    font-weight: 800;
+}
+h5 {
+    font-weight: 100;
+    margin: 0;
+}
+.footer {
+    background-color: rgb(194, 181, 184);
+    margin: 0px auto;
+    padding: 20px 0px; 
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px; 
+}
+.tinted-image {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/website_bg.jpg);
+    color: white;
+    height: 400px;
+  }
+.cover-carousel-1 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-1.png);
+    color: white;
+    height: 400px;
+}
+.cover-carousel-2 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-2.png);
+    color: white;
+    height: 400px;
+}
+.cover-carousel-3 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-3.png);
+    color: white;
+    height: 400px;
+}
+.cover-carousel-4 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-4.png);
+    color: white;
+    height: 400px;
+}
+.cover-carousel-5 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-5.png);
+    color: white;
+    height: 400px;
+}
+.cover-carousel-6 {
+    background-image:
+    linear-gradient( to right,
+    rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%
+      ),
+      url(../Assets/carousel-7.png);
+    color: white;
+    height: 400px;
+}
+.text-tinted-image {
+    margin-top: 100px;
+    text-align: center;
+}
+.blue-bg {
+    background-color:var(--secondary) ;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+.text-blue-bg {
+    margin-top: 100px;
+    text-align: center;
+}
+.about-col {
+    margin: 0;
+}
+.navbar-content {
+    padding: 15px;
+}
+.container-1 {
+    box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 3px 12px 1px rgba(0,0,0,0.45);
+}
+.nav-items-content {
+    color: rgb(41, 40, 40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: small;
+}
+.nav-items-register {
+    color: var(--accent);
+    border: 0.5px solid var(--accent);
+    margin-left: 20px;
+}
+.nav-items-register:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+    transition: all .4s ease;
+}
+.raising-bars {
+    color: rgb(65, 64, 64); 
+    font-weight: 500;
+}
+.para-home {
+    color: rgb(65, 64, 64); 
+    font-weight: 300;
+}
+.marquee-bg {
+    background-color: var(--accent);
+    color: white;
+}
+.aalap-heading {
+    color: var(--accent); 
+    border: 2px solid var(--accent);
+}
+.footer-link {
+    color: black;
+}
+a{
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+} 
